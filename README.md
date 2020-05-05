@@ -9,4 +9,5 @@
 -	Use the zipped data set, do not extract the contents of the folder. It is taken care in the code itself.
 -	PIP should be installed before installing and importing all the packages mentioned in the notebook.
 -	For CV2, OpenCV should be installed; for PIL, pillow should be installed.
+-   Download the sav file of our model from this link: https://buffalo.box.com/s/5rbes0gi7xk9ch23i98x7cavjhbvcqr4 (Github doesnot allow to push more than 100 MB file)
 -	The “.command” file and “.sav” file are created for the UI. It works only on Mac.
