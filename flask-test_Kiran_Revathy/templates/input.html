@@ -1,0 +1,125 @@
+<html>
+  <title>BUDGET ANALYSIS FOR MOVIES</title>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+        <style>
+            .mySlides {display:none;}
+            .button{background-color: red; /* red */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;}
+            </style>
+    </head>
+    <body>
+      <p style="color: red"><font size="6">BUDGET ANALYSIS FOR MOVIES</font></p>
+    <form method="POST">
+        <label for="moviename" style="color: red">Movie Title:</label><br>
+        <input type="text" id="moviename" name="moviename" required="required"><br><br>
+
+        <label for="fname" style="color: red">Director's name:</label><br>
+        <input type="text" id="dname" name="dname" required="required"><br><br>
+
+        <label for="lname" style="color: red">Actor1:</label><br>
+        <input type="text" id="a1name" name="a1name" required="required"><br>
+
+        <label for="lname" style="color: red">Actor2:</label><br>
+        <input type="text" id="a2name" name="a2name" required="required"><br>
+
+        <label for="lname" style="color: red">Actor3:</label><br>
+        <input type="text" id="a3name" name="a3name" required="required"><br><br>
+
+        <p style="color: red">Please select genre:</p>
+        <input type="checkbox" id="genre1" name="genre" value="Western">
+  <label for="genre1" style="color: red"> Western</label><br>
+
+  <input type="checkbox" id="genre2" name="genre" value="Documentary">
+  <label for="genre2" style="color: red">Documentary</label><br>
+
+  <input type="checkbox" id="genre3" name="genre" value="Musical">
+  <label for="genre3" style="color: red">Musical</label><br>
+
+  <input type="checkbox" id="genre4" name="genre" value="Sport">
+  <label for="genre4" style="color: red">Sport</label><br>
+  
+  <input type="checkbox" id="genre5" name="genre" value="History">
+  <label for="genre5" style="color: red">History</label><br>
+  
+
+  <input type="checkbox" id="genre6" name="genre" value="Music">
+  <label for="genre6" style="color: red">Music</label><br>
+
+  <input type="checkbox" id="genre7" name="genre" value="War">
+  <label for="genre7" style="color: red">War</label><br>
+  
+  <input type="checkbox" id="genre8" name="genre" value="Animation">
+  <label for="genre8" style="color: red">Animation</label><br>
+ 
+  <input type="checkbox" id="genre9" name="genre" value="Biography">
+  <label for="genre9" style="color: red">Biography</label><br>
+  
+  <input type="checkbox" id="genre10" name="genre" value="Mystery">
+  <label for="genre10" style="color: red">Mystery</label><br>
+  
+  <input type="checkbox" id="genre11" name="genre" value="Horror">
+  <label for="genre11" style="color: red">Horror</label><br>
+  
+  <input type="checkbox" id="genre12" name="genre" value="Family">
+  <label for="genre12" style="color: red">Family</label><br>
+  
+  <input type="checkbox" id="genre13" name="genre" value="Sci-Fi">
+  <label for="genre13" style="color: red">Sci-Fi</label><br>
+  
+  <input type="checkbox" id="genre14" name="genre" value="Fantasy">
+  <label for="genre14" style="color: red">Fantasy</label><br>
+  
+  <input type="checkbox" id="genre15" name="genre" value="Crime">
+  <label for="genre15" style="color: red">Crime</label><br>
+  
+  <input type="checkbox" id="genre16" name="genre" value="Adventure">
+  <label for="genre16" style="color: red">Adventure</label><br>
+  
+  <input type="checkbox" id="genre17" name="genre" value="Romance">
+  <label for="genre17" style="color: red">Romance</label><br>
+ 
+  <input type="checkbox" id="genre18" name="genre" value="Action">
+  <label for="genre18" style="color: red">Action</label><br>
+  
+  <input type="checkbox" id="genre19" name="genre" value="Thriller">
+  <label for="genre19" style="color: red">Thriller</label><br>
+  
+  <input type="checkbox" id="genre20" name="genre" value="Comedy">
+  <label for="genre20" style="color: red">Comedy</label><br>
+  
+  <input type="checkbox" id="genre21" name="genre" value="Drama">
+  <label for="genre21" style="color: red">Drama</label><br><br>
+  
+  <label for="language" style="color: red">Choose the language of your movie:</label>
+
+<select id="language" name = "lang">
+  <option name = "lang" value="Cantonese">Cantonese</option>
+  <option name = "lang" value="English">English</option>
+  <option name = "lang" value="French">French</option>
+  <option name = "lang" value="German">German</option>
+  <option name = "lang" value="Hindi">Hindi</option>
+  <option name = "lang" value="Italian">Italian</option>
+  <option name = "lang" value="Japanese">Japanese</option>
+  <option name = "lang" value="Korean">Korean</option>
+  <option name = "lang" value="Mandarin">Mandarin</option>
+  <option name = "lang" value="Norwegian">Norwegian</option>
+  <option name = "lang" value="Portugese">Portugese</option>
+  <option name = "lang" value="Spanish">Spanish</option>
+
+
+
+</select> <br><br>
+
+
+        <button class="button button3" name="submit" id = "submit1">Submit</button>
+      </form>
+    </body>
+</html>

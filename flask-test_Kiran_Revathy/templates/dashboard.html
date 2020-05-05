@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static',    filename='css/dashboard.css') }}">
+<style>
+.button {
+  background-color:red; /* red */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button4 {border-radius: 80%;}
+.button5 {border-radius: 60%;}
+</style>
+</head>
+<body>
+<form  method="POST"> 
+<h2 style="color: red"><font size="8">Dashboard</font></h2>
+<p style="color: red"><font size="6">Choose your service</font></p>
+
+<button class="button button4">News Feed</button>
+<button class="button button5">Analyze budget for your movie</button>
+
+</form>
+
+</body>
+</html>
