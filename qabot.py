@@ -22,6 +22,6 @@ def bot():
     result = predictor.predict(passage = passage, question = incoming_msg )
     msg.body(result["best_span_str"])
     
-    return str(resp)
 
+    return str(resp)
 
