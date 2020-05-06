@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static',    filename='css/loginstyle.css') }}">
+</head>
+<body>
+      
+			<form  method="POST"> 
+				<h1>Log in</h1> 
+				<p> 
+					<label for="username" class="uname" data-icon="u" > Your email or username </label>
+					<input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+				</p>
+				<p> 
+					<label for="password" class="youpasswd" data-icon="p"> Your password </label>
+					<input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+				</p>
+				<p class="keeplogin"> 
+					<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+					<label for="loginkeeping">Keep me logged in</label>
+				</p>
+				<a href="{{ url_for('dashboard') }}"><button class="button button2">Login</button>  
+				
+			</form>
+           
+</body>
+
+</html>
